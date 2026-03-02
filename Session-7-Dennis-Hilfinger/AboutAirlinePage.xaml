@@ -3,30 +3,39 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Session_7_Dennis_Hilfinger.AboutAirlinePage"
              Title="">
-    <ScrollView
+    <Grid
+        RowDefinitions="Auto, *, Auto"
         Margin="0, 10, 0, 50"
-        Orientation="Vertical"
-        HorizontalOptions="Center">
-        <VerticalStackLayout
+        RowSpacing="10">
+        <Image
+            Grid.Row="0"
+            Source="logo.png"
+            HorizontalOptions="Center"
+            Margin="0, 30, 0, 0"/>
+        <ScrollView
+            Grid.Row="1"
+            Orientation="Vertical"
+            HorizontalOptions="Center">
+            <VerticalStackLayout
                 HorizontalOptions="Center"
                 Spacing="30">
-            <Image
-                Source="logo.png"
-                HorizontalOptions="Center"
-                Margin="0, 30, 0, 0"/>
-            <Image
-                Source="airplane_single.png"
-                HorizontalOptions="Fill"
-                HeightRequest="150"/>
-            <Label
-                x:Name="AboutLabel"
-                Text=""
-                WidthRequest="400"/>
-            <Button
-                WidthRequest="150"
-                HeightRequest="50"
-                Text="Back"
-                Clicked="Back"/>
-        </VerticalStackLayout>
-    </ScrollView>
+
+                <Image
+                    Source="airplane_single.png"
+                    HorizontalOptions="Fill"
+                    HeightRequest="150"/>
+                <Label
+                    x:Name="AboutLabel"
+                    Text=""
+                    WidthRequest="400"/>
+            </VerticalStackLayout>
+        </ScrollView>
+
+        <Button
+            Grid.Row="2"
+            WidthRequest="150"
+            HeightRequest="50"
+            Text="Back"
+            Clicked="Back"/>
+    </Grid>
 </ContentPage>

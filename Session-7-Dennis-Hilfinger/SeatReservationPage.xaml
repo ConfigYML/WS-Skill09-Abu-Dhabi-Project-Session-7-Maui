@@ -2,11 +2,57 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Session_7_Dennis_Hilfinger.SeatReservationPage"
-             Title="SeatReservationPage">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+             Title="">
+    <Grid
+        RowDefinitions="Auto, *, Auto"
+        Margin="0, 10, 0, 50"
+        RowSpacing="10">
+        <VerticalStackLayout
+            Grid.Row="0">
+            <Image
+                Source="logo.png"
+                HorizontalOptions="Center"
+                Margin="0, 30, 0, 30"/>
+            <HorizontalStackLayout
+                Spacing="10"
+                HorizontalOptions="Center">
+
+                <Entry
+                    x:Name="TicketInput"
+                    WidthRequest="200"
+                    Placeholder="Enter ticket number here"/>
+                <Button
+                    Text="Select ticket"
+                    Clicked="SelectTicket"
+                    WidthRequest="150"
+                    HeightRequest="50"/>
+            </HorizontalStackLayout>
+            
+        </VerticalStackLayout>
+
+        <ScrollView
+            Grid.Row="1"
+            Orientation="Vertical"
+            HorizontalOptions="Center">
+
+        </ScrollView>
+
+        <HorizontalStackLayout
+            Grid.Row="2"
+            Spacing="50"
+            HorizontalOptions="Center">
+
+            <Button
+                WidthRequest="150"
+                HeightRequest="50"
+                Text="Reserve seat"
+                BackgroundColor="{StaticResource PrimaryBlue}"
+                Clicked="ReserveSeat"/>
+            <Button
+                WidthRequest="150"
+                HeightRequest="50"
+                Text="Back"
+                Clicked="Back"/>
+        </HorizontalStackLayout>
+    </Grid>
 </ContentPage>

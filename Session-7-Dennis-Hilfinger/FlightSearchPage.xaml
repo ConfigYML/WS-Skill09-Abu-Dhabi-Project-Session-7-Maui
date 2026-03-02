@@ -2,11 +2,136 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Session_7_Dennis_Hilfinger.FlightSearchPage"
-             Title="FlightSearchPage">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+             Title="">
+    <Grid
+        RowDefinitions="Auto, *, Auto"
+        Margin="0, 10, 0, 50"
+        RowSpacing="10">
+        <VerticalStackLayout
+            Grid.Row="0">
+            <Image
+                Source="logo.png"
+                HorizontalOptions="Center"
+                Margin="0, 30, 0, 0"/>
+            <Picker
+                x:Name="DepartureAirportPicker" Title="From:"/>
+            <Picker
+                x:Name="ArrivalAirportPicker" Title="To:"/>
+            <DatePicker 
+                x:Name="FlightDatePicker"
+                HorizontalOptions="Fill"/>
+            <Button
+                Text="Search flights"
+                Clicked="Search"
+                WidthRequest="150"
+                HeightRequest="50"/>
+        </VerticalStackLayout>
+
+        <ScrollView
+            Grid.Row="1"
+            Orientation="Vertical"
+            HorizontalOptions="Center">
+            <CollectionView
+                HorizontalOptions="Center"
+                x:Name="FlightsView">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Border
+                            Stroke="{StaticResource PrimaryBlue}">
+                            <VerticalStackLayout
+                                Spacing="5">
+                                <Grid
+                                    ColumnDefinitions="2*, *, *, *"
+                                    ColumnSpacing="10">
+                                    <Label
+                                        Grid.Column="0"
+                                        Text="Flight number:"
+                                        HorizontalOptions="End"
+                                        VerticalOptions="Center"
+                                        FontSize="16"
+                                        FontFamily="TexBold"/>
+                                    <Label
+                                        Grid.Column="1"
+                                        Text="{Binding FlightNumber}"
+                                        HorizontalOptions="Start"
+                                        VerticalOptions="Center"
+                                        FontSize="16"/>
+                                    <Label
+                                        Grid.Column="2"
+                                        Text="Date:"
+                                        HorizontalOptions="End"
+                                        VerticalOptions="Center"
+                                        FontSize="16"
+                                        FontFamily="TexBold"/>
+                                    <Label
+                                        Grid.Column="3"
+                                        Text=""
+                                        HorizontalOptions="Start"
+                                        VerticalOptions="Center"
+                                        FontSize="16"/>
+                                </Grid>
+                                <Grid
+                                    ColumnDefinitions="*, *, *, *"
+                                    ColumnSpacing="5">
+                                    <Label
+                                        Grid.Column="0"
+                                        Text="Price:"
+                                        HorizontalOptions="End"
+                                        VerticalOptions="Center"
+                                        FontSize="16"
+                                        FontFamily="TexBold"/>
+                                    <Label
+                                        Grid.Column="1"
+                                        Text="{Binding Price}"
+                                        HorizontalOptions="Start"
+                                        VerticalOptions="Center"
+                                        FontSize="16"/>
+                                </Grid>
+                                <Grid
+                                    ColumnDefinitions="*, *, *, *"
+                                    ColumnSpacing="5">
+                                    <Label
+                                        Grid.Column="0"
+                                        Text="Time:"
+                                        HorizontalOptions="End"
+                                        VerticalOptions="Center"
+                                        FontSize="16"
+                                        FontFamily="TexBold"/>
+                                    <Label
+                                        Grid.Column="1"
+                                        Text="{Binding Time}"
+                                        HorizontalOptions="Start"
+                                        VerticalOptions="Center"
+                                        FontSize="16"/>
+                                    <Label
+                                        Grid.Column="2"
+                                        Text="Aircraft:"
+                                        HorizontalOptions="End"
+                                        VerticalOptions="Center"
+                                        FontSize="16"
+                                        FontFamily="TexBold"/>
+                                    <Label
+                                        Grid.Column="3"
+                                        Text="{Binding Aircraft}"
+                                        HorizontalOptions="Start"
+                                        VerticalOptions="Center"
+                                        FontSize="16"/>
+                                </Grid>
+
+                            </VerticalStackLayout>
+                        </Border>
+
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+        </ScrollView>
+
+        <Button
+            Grid.Row="2"
+            WidthRequest="150"
+            HeightRequest="50"
+            Text="Back"
+            Clicked="Back"/>
+    </Grid>
 </ContentPage>

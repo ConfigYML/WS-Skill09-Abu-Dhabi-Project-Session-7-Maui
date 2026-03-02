@@ -3,10 +3,65 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Session_7_Dennis_Hilfinger.AmenitiesPage"
              Title="AmenitiesPage">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+    <Grid
+        RowDefinitions="Auto, *, Auto"
+        Margin="0, 10, 0, 50"
+        RowSpacing="10">
+        <Image
+            Grid.Row="0"
+            Source="logo.png"
+            HorizontalOptions="Center"
+            Margin="0, 30, 0, 0"/>
+        <ScrollView
+            Grid.Row="1"
+            Orientation="Vertical"
+            HorizontalOptions="Center">
+            <CollectionView
+                HorizontalOptions="Center"
+                x:Name="AmenitiesView"
+                >
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid
+                            ColumnDefinitions="*,*,*,*"
+                            ColumnSpacing="5">
+                            <Label
+                                Grid.Column="0"
+                                Text="Service:"
+                                HorizontalOptions="End"
+                                VerticalOptions="Center"
+                                FontSize="20"
+                                FontFamily="TexBold"/>
+                            <Label
+                                Grid.Column="1"
+                                Text="{Binding Service}"
+                                HorizontalOptions="Start"
+                                VerticalOptions="Center"
+                                FontSize="20"/>
+                            <Label
+                                Grid.Column="2"
+                                Text="$"
+                                HorizontalOptions="End"
+                                VerticalOptions="Center"
+                                FontSize="20"
+                                FontFamily="TexBold"/>
+                            <Label
+                                Grid.Column="3"
+                                Text="{Binding Price}"
+                                HorizontalOptions="Start"
+                                VerticalOptions="Center"
+                                FontSize="20"/>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </ScrollView>
+
+        <Button
+            Grid.Row="2"
+            WidthRequest="150"
+            HeightRequest="50"
+            Text="Back"
+            Clicked="Back"/>
+    </Grid>
 </ContentPage>

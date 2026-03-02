@@ -1,0 +1,4 @@
+C:\2_WorldSkills\2017_Session7\Maui\Executable\net9.0-android\publish\com.companyname.session7dennishilfinger-Signed.aab
+C:\2_WorldSkills\2017_Session7\Maui\Executable\net9.0-android\publish\com.companyname.session7dennishilfinger.aab
+C:\2_WorldSkills\2017_Session7\Maui\Executable\net9.0-android\publish\com.companyname.session7dennishilfinger-Signed.apk
+C:\2_WorldSkills\2017_Session7\Maui\Executable\net9.0-android\publish\_Microsoft.Android.Resource.Designer.dll

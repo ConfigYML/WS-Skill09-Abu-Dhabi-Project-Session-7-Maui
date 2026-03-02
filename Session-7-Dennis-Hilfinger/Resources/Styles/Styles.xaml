@@ -12,8 +12,5 @@
         <Setter Property="FontSize" Value="20"/>
         <Setter Property="FontFamily" Value="Tex"/>
     </Style>
-    <Style TargetType="ContentPage">
-        <Setter Property="Shell.NavBarIsVisible" Value="False"/>
-    </Style>
 
 </ResourceDictionary>
