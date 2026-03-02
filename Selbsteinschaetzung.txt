@@ -1,0 +1,5 @@
+Session lief insgesamt recht gut bis zum Ende der Zeit. Jedoch verstehe ich nicht, wie die Reservierung per API vorgenommen werden soll? Es gibt meiner Meinung nach keinen Endpunkt hierfür?
+
+Zu üben für Android-Entwicklung mit .NET MAUI: Layout schneller designen vor allem für Handys, da diese nicht solche breiten Bildschirme haben. Außerdem noch wichtig: Build-Process bei Android und APK publishen wiederholen. (Eventuell auch Beschleunigungen des Build-Prozess anschauen)
+
+Wichtige Frage für Shanghai: Mobilgeräte vorhanden oder Entwicklung per Emulator wie hier?
