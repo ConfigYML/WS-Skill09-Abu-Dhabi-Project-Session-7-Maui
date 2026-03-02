@@ -1,0 +1,73 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = true
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net9.0-android
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Session_7_Dennis_Hilfinger
+build_property.ProjectDir = C:\2_WorldSkills\2017_Session7\Maui\Session-7-Dennis-Hilfinger\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/2_WorldSkills/2017_Session7/Maui/Session-7-Dennis-Hilfinger/AboutAirlinePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Session_7_Dennis_Hilfinger.AboutAirlinePage.xaml
+build_metadata.AdditionalFiles.TargetPath = AboutAirlinePage.xaml
+build_metadata.AdditionalFiles.RelativePath = AboutAirlinePage.xaml
+
+[C:/2_WorldSkills/2017_Session7/Maui/Session-7-Dennis-Hilfinger/AmenitiesPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Session_7_Dennis_Hilfinger.AmenitiesPage.xaml
+build_metadata.AdditionalFiles.TargetPath = AmenitiesPage.xaml
+build_metadata.AdditionalFiles.RelativePath = AmenitiesPage.xaml
+
+[C:/2_WorldSkills/2017_Session7/Maui/Session-7-Dennis-Hilfinger/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Session_7_Dennis_Hilfinger.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/2_WorldSkills/2017_Session7/Maui/Session-7-Dennis-Hilfinger/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Session_7_Dennis_Hilfinger.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/2_WorldSkills/2017_Session7/Maui/Session-7-Dennis-Hilfinger/FlightSearchPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Session_7_Dennis_Hilfinger.FlightSearchPage.xaml
+build_metadata.AdditionalFiles.TargetPath = FlightSearchPage.xaml
+build_metadata.AdditionalFiles.RelativePath = FlightSearchPage.xaml
+
+[C:/2_WorldSkills/2017_Session7/Maui/Session-7-Dennis-Hilfinger/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Session_7_Dennis_Hilfinger.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/2_WorldSkills/2017_Session7/Maui/Session-7-Dennis-Hilfinger/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Session_7_Dennis_Hilfinger.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/2_WorldSkills/2017_Session7/Maui/Session-7-Dennis-Hilfinger/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Session_7_Dennis_Hilfinger.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/2_WorldSkills/2017_Session7/Maui/Session-7-Dennis-Hilfinger/SeatReservationPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Session_7_Dennis_Hilfinger.SeatReservationPage.xaml
+build_metadata.AdditionalFiles.TargetPath = SeatReservationPage.xaml
+build_metadata.AdditionalFiles.RelativePath = SeatReservationPage.xaml

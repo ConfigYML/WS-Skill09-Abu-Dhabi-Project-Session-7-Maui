@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Session-7-Dennis-Hilfinger</name>
+    </assembly>
+    <members>
+        <member name="T:Session_7_Dennis_Hilfinger.Resource">
+            <summary>
+            Android Resource Designer class.
+            Exposes the Android Resource designer assembly into the project Namespace.
+            </summary>
+        </member>
+    </members>
+</doc>
