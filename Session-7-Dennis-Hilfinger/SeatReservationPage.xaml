@@ -3,6 +3,12 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Session_7_Dennis_Hilfinger.SeatReservationPage"
              Title="">
+    <ContentPage.Resources>
+        <Style x:Key="SeatBtnStyle" TargetType="Button">
+            <Setter Property="FontSize" Value="15"/>
+            <Setter Property="Padding" Value="0"/>
+        </Style>
+    </ContentPage.Resources>
     <Grid
         RowDefinitions="Auto, *, Auto"
         Margin="0, 10, 0, 50"
@@ -27,13 +33,163 @@
                     WidthRequest="150"
                     HeightRequest="50"/>
             </HorizontalStackLayout>
-            
         </VerticalStackLayout>
 
         <ScrollView
             Grid.Row="1"
             Orientation="Vertical"
             HorizontalOptions="Center">
+            
+            <VerticalStackLayout>
+                <AbsoluteLayout
+                    IsVisible="False"
+                    x:Name="BusinessLayout">
+                    
+                    <Image
+                        AbsoluteLayout.LayoutBounds="0, 0, 450, 500"
+                        Source="business_class_seats.png"
+                        />
+                    
+                    <Button
+                        AbsoluteLayout.LayoutBounds="135, 305, 25, 25"
+                        Text="1"
+                        Style="{StaticResource SeatBtnStyle}"
+                        Clicked="SelectSeat"/>
+                    <Button
+                        AbsoluteLayout.LayoutBounds="165, 305, 25, 25"
+                        Text="2"
+                        Style="{StaticResource SeatBtnStyle}"
+                        Clicked="SelectSeat"/>
+                    <Button
+                        AbsoluteLayout.LayoutBounds="225, 305, 25, 25"
+                        Text="3"
+                        Style="{StaticResource SeatBtnStyle}"
+                        Clicked="SelectSeat"/>
+                    <Button
+                        AbsoluteLayout.LayoutBounds="255, 305, 25, 25"
+                        Text="4"
+                        Style="{StaticResource SeatBtnStyle}"
+                        Clicked="SelectSeat"/>
+                    
+                    <Button
+                        AbsoluteLayout.LayoutBounds="135, 355, 25, 25"
+                        Text="5"
+                        Style="{StaticResource SeatBtnStyle}"
+                        Clicked="SelectSeat"/>
+                    <Button
+                        AbsoluteLayout.LayoutBounds="165, 355, 25, 25"
+                        Text="6"
+                        Style="{StaticResource SeatBtnStyle}"
+                        Clicked="SelectSeat"/>
+                    <Button
+                        AbsoluteLayout.LayoutBounds="225, 355, 25, 25"
+                        Text="7"
+                        Style="{StaticResource SeatBtnStyle}"
+                        Clicked="SelectSeat"/>
+                    <Button
+                        AbsoluteLayout.LayoutBounds="255, 355, 25, 25"
+                        Text="8"
+                        Style="{StaticResource SeatBtnStyle}"
+                        Clicked="SelectSeat"/>
+                    
+                    <Button
+                        AbsoluteLayout.LayoutBounds="135, 405, 25, 25"
+                        Text="9"
+                        Style="{StaticResource SeatBtnStyle}"
+                        Clicked="SelectSeat"/>
+                    <Button
+                        AbsoluteLayout.LayoutBounds="165, 405, 25, 25"
+                        Text="10"
+                        Style="{StaticResource SeatBtnStyle}"
+                        Clicked="SelectSeat"/>
+                    <Button
+                        AbsoluteLayout.LayoutBounds="225, 405, 25, 25"
+                        Text="11"
+                        Style="{StaticResource SeatBtnStyle}"
+                        Clicked="SelectSeat"/>
+                    <Button
+                        AbsoluteLayout.LayoutBounds="255, 405, 25, 25"
+                        Text="12"
+                        Style="{StaticResource SeatBtnStyle}"
+                        Clicked="SelectSeat"/>
+                    
+                    <Button
+                        AbsoluteLayout.LayoutBounds="135, 455, 25, 25"
+                        Text="13"
+                        Style="{StaticResource SeatBtnStyle}"
+                        Clicked="SelectSeat"/>
+                    <Button
+                        AbsoluteLayout.LayoutBounds="165, 455, 25, 25"
+                        Text="14"
+                        Style="{StaticResource SeatBtnStyle}"
+                        Clicked="SelectSeat"/>
+                    <Button
+                        AbsoluteLayout.LayoutBounds="225, 455, 25, 25"
+                        Text="15"
+                        Style="{StaticResource SeatBtnStyle}"
+                        Clicked="SelectSeat"/>
+                    <Button
+                        AbsoluteLayout.LayoutBounds="255, 455, 25, 25"
+                        Text="16"
+                        Style="{StaticResource SeatBtnStyle}"
+                        Clicked="SelectSeat"/>
+                </AbsoluteLayout>
+                
+                <AbsoluteLayout
+                    IsVisible="False"
+                    x:Name="FirstClassLayout">
+                    <Image
+                        AbsoluteLayout.LayoutBounds="0, 0, 450, 500"
+                        Source="first_class_seats.png"/>
+                    <Button
+                        AbsoluteLayout.LayoutBounds="140, 355, 25, 25"
+                        Text="1"
+                        Style="{StaticResource SeatBtnStyle}"
+                        Clicked="SelectSeat"/>
+                    <Button
+                        AbsoluteLayout.LayoutBounds="225, 355, 25, 25"
+                        Text="2"
+                        Style="{StaticResource SeatBtnStyle}"
+                        Clicked="SelectSeat"/>
+                    <Button
+                        AbsoluteLayout.LayoutBounds="260, 355, 25, 25"
+                        Text="3"
+                        Style="{StaticResource SeatBtnStyle}"
+                        Clicked="SelectSeat"/>
+                    
+                    <Button
+                        AbsoluteLayout.LayoutBounds="140, 405, 25, 25"
+                        Text="4"
+                        Style="{StaticResource SeatBtnStyle}"
+                        Clicked="SelectSeat"/>
+                    <Button
+                        AbsoluteLayout.LayoutBounds="225, 405, 25, 25"
+                        Text="5"
+                        Style="{StaticResource SeatBtnStyle}"
+                        Clicked="SelectSeat"/>
+                    <Button
+                        AbsoluteLayout.LayoutBounds="260, 405, 25, 25"
+                        Text="6"
+                        Style="{StaticResource SeatBtnStyle}"
+                        Clicked="SelectSeat"/>
+                    
+                    <Button
+                        AbsoluteLayout.LayoutBounds="140, 455, 25, 25"
+                        Text="7"
+                        Style="{StaticResource SeatBtnStyle}"
+                        Clicked="SelectSeat"/>
+                    <Button
+                        AbsoluteLayout.LayoutBounds="225, 455, 25, 25"
+                        Text="8"
+                        Style="{StaticResource SeatBtnStyle}"
+                        Clicked="SelectSeat"/>
+                    <Button
+                        AbsoluteLayout.LayoutBounds="260, 455, 25, 25"
+                        Text="9"
+                        Style="{StaticResource SeatBtnStyle}"
+                        Clicked="SelectSeat"/>
+                </AbsoluteLayout>
+            </VerticalStackLayout>
 
         </ScrollView>
 

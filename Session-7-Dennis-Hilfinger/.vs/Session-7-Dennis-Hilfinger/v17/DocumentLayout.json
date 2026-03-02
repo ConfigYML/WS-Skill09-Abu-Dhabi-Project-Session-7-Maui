@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\2_WorldSkills\\2017_Session7\\Maui\\Session-7-Dennis-Hilfinger\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FB0F4C9E-8A3A-4004-8626-EFF031509344}|Session-7-Dennis-Hilfinger.csproj|c:\\2_worldskills\\2017_session7\\maui\\session-7-dennis-hilfinger\\flightsearchpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{FB0F4C9E-8A3A-4004-8626-EFF031509344}|Session-7-Dennis-Hilfinger.csproj|solutionrelative:flightsearchpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{FB0F4C9E-8A3A-4004-8626-EFF031509344}|Session-7-Dennis-Hilfinger.csproj|c:\\2_worldskills\\2017_session7\\maui\\session-7-dennis-hilfinger\\seatreservationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB0F4C9E-8A3A-4004-8626-EFF031509344}|Session-7-Dennis-Hilfinger.csproj|solutionrelative:seatreservationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB0F4C9E-8A3A-4004-8626-EFF031509344}|Session-7-Dennis-Hilfinger.csproj|c:\\2_worldskills\\2017_session7\\maui\\session-7-dennis-hilfinger\\flightsearchpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB0F4C9E-8A3A-4004-8626-EFF031509344}|Session-7-Dennis-Hilfinger.csproj|solutionrelative:flightsearchpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FB0F4C9E-8A3A-4004-8626-EFF031509344}|Session-7-Dennis-Hilfinger.csproj|c:\\2_worldskills\\2017_session7\\maui\\session-7-dennis-hilfinger\\seatreservationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FB0F4C9E-8A3A-4004-8626-EFF031509344}|Session-7-Dennis-Hilfinger.csproj|solutionrelative:seatreservationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB0F4C9E-8A3A-4004-8626-EFF031509344}|Session-7-Dennis-Hilfinger.csproj|c:\\2_worldskills\\2017_session7\\maui\\session-7-dennis-hilfinger\\models\\cabintype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB0F4C9E-8A3A-4004-8626-EFF031509344}|Session-7-Dennis-Hilfinger.csproj|solutionrelative:models\\cabintype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB0F4C9E-8A3A-4004-8626-EFF031509344}|Session-7-Dennis-Hilfinger.csproj|c:\\2_worldskills\\2017_session7\\maui\\session-7-dennis-hilfinger\\resources\\raw\\aboutassets.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{FB0F4C9E-8A3A-4004-8626-EFF031509344}|Session-7-Dennis-Hilfinger.csproj|solutionrelative:resources\\raw\\aboutassets.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,28 +34,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FlightSearchPage.xaml",
-              "DocumentMoniker": "C:\\2_WorldSkills\\2017_Session7\\Maui\\Session-7-Dennis-Hilfinger\\FlightSearchPage.xaml",
-              "RelativeDocumentMoniker": "FlightSearchPage.xaml",
-              "ToolTip": "C:\\2_WorldSkills\\2017_Session7\\Maui\\Session-7-Dennis-Hilfinger\\FlightSearchPage.xaml",
-              "RelativeToolTip": "FlightSearchPage.xaml",
-              "ViewState": "AgIAAFoAAAAAAAAAAAAAAG0AAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-03-02T18:56:17.478Z",
+              "DocumentIndex": 3,
+              "Title": "AboutAssets.txt",
+              "DocumentMoniker": "C:\\2_WorldSkills\\2017_Session7\\Maui\\Session-7-Dennis-Hilfinger\\Resources\\Raw\\AboutAssets.txt",
+              "RelativeDocumentMoniker": "Resources\\Raw\\AboutAssets.txt",
+              "ToolTip": "C:\\2_WorldSkills\\2017_Session7\\Maui\\Session-7-Dennis-Hilfinger\\Resources\\Raw\\AboutAssets.txt",
+              "RelativeToolTip": "Resources\\Raw\\AboutAssets.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-03-02T20:49:33.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CabinType.cs",
+              "DocumentMoniker": "C:\\2_WorldSkills\\2017_Session7\\Maui\\Session-7-Dennis-Hilfinger\\Models\\CabinType.cs",
+              "RelativeDocumentMoniker": "Models\\CabinType.cs",
+              "ToolTip": "C:\\2_WorldSkills\\2017_Session7\\Maui\\Session-7-Dennis-Hilfinger\\Models\\CabinType.cs",
+              "RelativeToolTip": "Models\\CabinType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T20:43:27.714Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "FlightSearchPage.xaml.cs",
-              "DocumentMoniker": "C:\\2_WorldSkills\\2017_Session7\\Maui\\Session-7-Dennis-Hilfinger\\FlightSearchPage.xaml.cs",
-              "RelativeDocumentMoniker": "FlightSearchPage.xaml.cs",
-              "ToolTip": "C:\\2_WorldSkills\\2017_Session7\\Maui\\Session-7-Dennis-Hilfinger\\FlightSearchPage.xaml.cs",
-              "RelativeToolTip": "FlightSearchPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAFAAAAAAAAAA==",
+              "Title": "SeatReservationPage.xaml",
+              "DocumentMoniker": "C:\\2_WorldSkills\\2017_Session7\\Maui\\Session-7-Dennis-Hilfinger\\SeatReservationPage.xaml",
+              "RelativeDocumentMoniker": "SeatReservationPage.xaml",
+              "ToolTip": "C:\\2_WorldSkills\\2017_Session7\\Maui\\Session-7-Dennis-Hilfinger\\SeatReservationPage.xaml",
+              "RelativeToolTip": "SeatReservationPage.xaml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAD8AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-02T20:38:10.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SeatReservationPage.xaml.cs",
+              "DocumentMoniker": "C:\\2_WorldSkills\\2017_Session7\\Maui\\Session-7-Dennis-Hilfinger\\SeatReservationPage.xaml.cs",
+              "RelativeDocumentMoniker": "SeatReservationPage.xaml.cs",
+              "ToolTip": "C:\\2_WorldSkills\\2017_Session7\\Maui\\Session-7-Dennis-Hilfinger\\SeatReservationPage.xaml.cs",
+              "RelativeToolTip": "SeatReservationPage.xaml.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAowEIAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-02T18:56:15.644Z",
+              "WhenOpened": "2026-03-02T20:38:09.741Z",
               "EditorCaption": ""
             }
           ]

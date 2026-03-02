@@ -8,6 +8,6 @@ namespace Session_7_Dennis_Hilfinger.Models
 {
     public class CabinType
     {
-        public string Name { get; set; }
+        public string Type { get; set; }
     }
 }
